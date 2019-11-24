@@ -45,8 +45,8 @@ app.post("/api/notes", function(req, res){
 });
 
 //Listener
-app.listen(port, function(){
-    console.log(port);
+app.listen(PORT, function(){
+    console.log(PORT);
 });
 
 
